@@ -1,0 +1,121 @@
+.header-container {
+  background-color: white;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper {
+  width: 936px;
+  position: relative;
+  z-index: 100;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.top-navigation-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.top-navigation-item {
+  padding-right: 15px;
+  position: relative;
+  color: rgb(68, 68, 68);
+}
+
+.top-navigation-item::after {
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: #000;
+  display: block;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+
+.top-navigation-item:last-child::after {
+  width: 0;
+}
+
+.quote-button {
+  padding: 12px 30px;
+  background-color: rgb(210, 21, 30);
+  color: white;
+  margin-left: auto;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.contact-item {
+  display: flex;
+  margin-left: 20px;
+}
+
+.contact-icon {
+  width: 38px;
+  height: 38px;
+}
+
+.contact-info {
+  margin-left: 8px;
+}
+
+.contact-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(35, 35, 35);
+}
+
+.contact-sub-heading {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.menu-container {
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-wrapper {
+  width: 936px;
+}
+
+.carousel-wrapper {
+  height: calc(100vh - 193px) !important;
+}
+
+.carousel-item-heading {
+  font-size: 67px;
+  font-weight: 800;
+  color: white;
+}
+
+.carousel-item-sub-heading {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 410px;
+}
+
+.read-more-icon {
+  width: 14px;
+  height: 14px;
+}
